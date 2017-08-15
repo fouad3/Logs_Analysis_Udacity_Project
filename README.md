@@ -56,11 +56,11 @@ WHERE log.path like concat('%',articles.slug)
 GROUP BY title,author
 ORDER BY views desc;
   ```
-  | Column  | Type    |
-  | :-------| :-------|
-  | title   | text    |
-  | author  | text    |
-  | views   | Integer |
+   | Column  | Type    |
+   | :-------| :-------|
+   | title   | text    |
+   | author  | text    |
+   | views   | Integer |
   
 
 
@@ -73,10 +73,10 @@ FROM log
 GROUP BY date
 ORDER BY num desc;
   ```
-  | Column  | Type    |
-  | :-------| :-------|
-  | date    | date    |
-  | num     | Integer |
+   | Column  | Type    |
+   | :-------| :-------|
+   | date    | date    |
+   | num     | Integer |
   
 
 8.Create view false_status using:
@@ -89,10 +89,10 @@ WHERE status!='200 OK'
 GROUP BY date
 ORDER BY num desc;
   ```
-  | Column  | Type    |
-  | :-------| :-------|
-  | date    | date    |
-  | num     | Integer |
+   | Column  | Type    |
+   | :-------| :-------|
+   | date    | date    |
+   | num     | Integer |
   
 
 9. From the vagrant directory inside the virtual machine,run logs.py using:
