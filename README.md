@@ -19,7 +19,8 @@ Nanodegree](https://www.udacity.com/course/full-stack-web-developer-nanodegree--
  2. Install Vagrant, you can download it from https://www.vagrantup.com/.
  3. Install  VirtualBox, you can download it from https://www.virtualbox.org/.
  4. Download or Clone [fullstack-nanodegree-vm](https://github.com/udacity/fullstack-nanodegree-vm) repository.
- 5. Unzip this file after downloading it. The file inside is called newsdata.sql.
+ 5. Download the [data](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip) from here.
+ 6. Unzip this file after downloading it. The file inside is called newsdata.sql.
 
 ## How to Run Project
 1. Launch the Vagrant VM inside Vagrant sub-directory in the downloaded fullstack-nanodegree-vm repository using command:
