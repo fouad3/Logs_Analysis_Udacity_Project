@@ -34,7 +34,6 @@ Nanodegree](https://www.udacity.com/course/full-stack-web-developer-nanodegree--
     $ vagrant ssh
   ```
 3. Change directory to /vagrant and look around with ls.
-
 4. Load the data in local database using the command:
   
   ```
@@ -45,9 +44,9 @@ Nanodegree](https://www.udacity.com/course/full-stack-web-developer-nanodegree--
   * The articles table includes the articles themselves.
   * The log table includes one entry for each time a user has accessed the site.
   
- 5. Use `psql -d news` to connect to database.
+5. Use `psql -d news` to connect to database.
  
- 6. Create view top_views using:
+6. Create view top_views using:
    ```
 CREATE VIEW top_views AS
 SELECT title,author,count(*) AS views
@@ -93,8 +92,6 @@ ORDER BY num desc;
    | :-------| :-------|
    | date    | date    |
    | num     | Integer |
-  
-
 9. From the vagrant directory inside the virtual machine,run logs.py using:
   ```
     $ python3 logs.py
