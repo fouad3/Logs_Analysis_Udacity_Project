@@ -46,7 +46,6 @@ Nanodegree](https://www.udacity.com/course/full-stack-web-developer-nanodegree--
   
 5. Use `psql -d news` to connect to database.
  
- 
 6. Create view top_views using:
    ```
 CREATE VIEW top_views AS
@@ -56,11 +55,11 @@ WHERE log.path like concat('%',articles.slug)
 GROUP BY title,author
 ORDER BY views desc;
   ```
-   | Column  | Type    |
-   | :-------| :-------|
-   | title   | text    |
-   | author  | text    |
-   | views   | Integer |
+  | Column  | Type    |
+  | :-------| :-------|
+  | title   | text    |
+  | author  | text    |
+  | views   | Integer |
   
 
 
