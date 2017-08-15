@@ -92,6 +92,9 @@ ORDER BY num desc;
    | :-------| :-------|
    | date    | date    |
    | num     | Integer |
+   
+   
+   
 9. From the vagrant directory inside the virtual machine,run logs.py using:
   ```
     $ python3 logs.py
