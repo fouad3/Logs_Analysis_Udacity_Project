@@ -11,7 +11,7 @@
 - [Copyright and license](#copyright-and-license)
  
 ## Description
-This is a logs analysis project which is internal reporting tool that will use information from the database to discover what kind of articles the site's readers like,this project is a part of the Udacity [Full Stack Web Developer
+An internal reporting tool that will use information from the database to discover what kind of articles the site's readers like,this project is a part of the Udacity's [Full Stack Web Developer
 Nanodegree](https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004).
 
 ## Required Libraries and Dependencies
